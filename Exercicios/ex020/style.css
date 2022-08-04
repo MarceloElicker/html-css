@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+div{
+    display: inline-block;
+    background-color: brown;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 250px;
+}
+div:hover{
+    background-color: blueviolet;
+}
+
+a{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: azure;
+}
+
+a::after{
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(167, 167, 156);
+}

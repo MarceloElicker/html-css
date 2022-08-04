@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+p{
+    text-indent: 30px;
+}
+
+h1#principal{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.basico{
+    color: blueviolet;
+    font-size: 25px;
+}
+.intermediario{
+    color: blue;
+    font-size: 25px;
+}
+.avançado{
+    color: aqua;
+    font-size: 25px;
+}
+
+.destaque{
+    background-color: brown;
+}
