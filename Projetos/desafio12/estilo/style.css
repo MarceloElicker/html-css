@@ -29,6 +29,7 @@ body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--fonte-curso);
+
 }
 
 header {
@@ -70,7 +71,7 @@ a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 30px;
+    line-height: 40px;
     padding-left: 30px;
     font-family: var(--fonte-padrao);
     font-size: 2.3vw;
@@ -84,6 +85,7 @@ section.normal {
 section.imagem{
     background-color: rgb(51, 46, 46);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.541);
 }
 
 section.imagem > h2 {
@@ -93,8 +95,9 @@ section.imagem > h2 {
 section.imagem > p {
     margin-top: 25px;
     padding: 5px;
-    background-image: linear-gradient(90deg, #881ba681 10%, #881ba600 90%);
+    background-image: linear-gradient(90deg, #881ba650 10%, #881ba600 90%);
     width: 500px;
+    border-radius: 10px;
 }
 
 section > p {
@@ -103,7 +106,7 @@ section > p {
 }
 
 section#egito {
-    background-image: url(/Projetos/desafio12/imagens/background002.jpg);
+    background-image: url("../imagens/background002.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -111,8 +114,8 @@ section#egito {
 }
 
 section#bruxa {
-    background-image: url(/Projetos/desafio12/imagens/background001.jpg);
-    background-position: center center;
+    background-image: url("../imagens/background001.jpg");
+    background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
